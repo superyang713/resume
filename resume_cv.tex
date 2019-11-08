@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Author:
+% Yang Dai (yang.dai2020@gmail.com)
+%
+% Document Type:
+% Resume 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------------------------------------
+% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------
+
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+\geometry{left=2cm, top=0.8cm, right=2cm, bottom=0.1cm, footskip=.5cm}
+
+\fontdir[fonts/]
+
+% Color for highlights
+\colorlet{awesome}{awesome-red}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\begin{document}
+
+%------------------------------------------------------------------------------
+% PERSONAL INFORMATION
+%------------------------------------------------------------------------------
+
+\name{Yang}{Dai}
+\mobile{(+1) 647-270-5582}
+
+\email{yang.dai2020@gmail.com}
+\homepage{www.yangdai.info}
+\github{superyang713}
+\linkedin{yangdai713}
+
+\makecvfooter{\today}{}{\thepage}
+
+\makecvheader
+
+%-----------------------------------------------------------------------------
+% RESUME CONTENT
+%-----------------------------------------------------------------------------
+
+\input{sections/skills.tex}
+\input{sections/experience.tex}
+\input{sections/projects.tex}
+\input{sections/education.tex}
+
+%-----------------------------------------------------------------------------
+
+\end{document}
